@@ -9,3 +9,6 @@ AbstractFactoryTest().test()
 BuilderTest().test()
 
 PrototypeTest().test()
+
+
+AdapterTest().test()
