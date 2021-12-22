@@ -1,7 +1,9 @@
 import UIKit
 
-Subscript().test()
+SubscriptTest().test()
 
-KeyPath().test()
+KeyPathTest().test()
 
-DynamicMemberLookup().test()
+DynamicMemberLookupTest().test()
+
+PropertyWrapperTest().test()

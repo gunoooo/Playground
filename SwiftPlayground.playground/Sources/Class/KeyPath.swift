@@ -1,10 +1,8 @@
 import Foundation
 
-public class KeyPath: Testable {
-    public init() {}
-    
-    public func test() {
-        print("---KeyPath test---")
+public class KeyPathTest: Testable {
+    override public func test() {
+        super.test()
         
         print(type(of: \User.id)) // KeyPath
         print(type(of: \User.name)) // WritableKeyPath

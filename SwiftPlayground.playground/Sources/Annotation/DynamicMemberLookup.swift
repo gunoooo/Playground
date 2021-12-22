@@ -1,10 +1,8 @@
 import UIKit
 
-public class DynamicMemberLookup: Testable {
-    public init() {}
-    
-    public func test() {
-        print("---DynamicMemberLookup test---")
+public class DynamicMemberLookupTest: Testable {
+    override public func test() {
+        super.test()
         
         let dictionary = PropertyDictionary(["a":1, "b":2])
         print(dictionary.a ?? "")

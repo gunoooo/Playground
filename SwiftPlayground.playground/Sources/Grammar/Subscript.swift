@@ -1,10 +1,8 @@
 import Foundation
 
-public class Subscript: Testable {
-    public init() {}
-    
-    public func test() {
-        print("---Subscript test---")
+public class SubscriptTest: Testable {
+    override public func test() {
+        super.test()
         
         var list: List<String> = .init()
         list.add("hello")

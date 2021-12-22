@@ -1,5 +1,9 @@
 import Foundation
 
-public protocol Testable {
-    func test()
+public class Testable {
+    public init() {}
+    
+    public func test() {
+        print("-----\(self)-----")
+    }
 }
