@@ -1,10 +1,8 @@
 import UIKit
 
-public class AbstractFactory: Testable {
-    public init() {}
-    
-    public func test() {
-        print("---추상팩토리 패턴 test---")
+public class AbstractFactoryTest: Testable {
+    override public func test() {
+        super.test()
         print(BankingViewConstantFactory().header.title)
         print(MoneyViewConstantFactory().header.title)
     }

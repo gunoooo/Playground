@@ -1,7 +1,11 @@
 import UIKit
 
-Singleton().test()
+SingletonTest().test()
 
-FactoryMethod().test()
+FactoryMethodTest().test()
 
-AbstractFactory().test()
+AbstractFactoryTest().test()
+
+BuilderTest().test()
+
+PrototypeTest().test()

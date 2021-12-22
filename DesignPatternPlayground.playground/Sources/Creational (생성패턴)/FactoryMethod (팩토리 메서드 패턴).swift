@@ -1,10 +1,8 @@
 import Foundation
 
-public class FactoryMethod: Testable {
-    public init() {}
-    
-    public func test() {
-        print("---팩토리 메서드 패턴 test---")
+public class FactoryMethodTest: Testable {
+    override public func test() {
+        super.test()
         let factory = NetworkErrorFactory()
         print(factory.make(with: "403")?.errorMessage ?? "")
         print(factory.make(with: "404")?.errorMessage ?? "")

@@ -1,10 +1,8 @@
 import Foundation
 
-public class Singleton: Testable {
-    public init() {}
-    
-    public func test() {
-        print("---싱글톤 패턴 test---")
+public class SingletonTest: Testable {
+    override public func test() {
+        super.test()
         Login().login()
         Profile().show()
     }
