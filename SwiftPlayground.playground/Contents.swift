@@ -7,3 +7,5 @@ KeyPathTest().test()
 DynamicMemberLookupTest().test()
 
 PropertyWrapperTest().test()
+
+MainThreadTest().test()
